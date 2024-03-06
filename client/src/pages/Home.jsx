@@ -1,19 +1,16 @@
-import { useEffect, useState } from 'react'
-
-import "/node_modules/bootstrap/dist/css/bootstrap.min.css"
-
+import { useEffect, useState } from "react";
+import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 export default function Home() {
-
   return (
     <>
-      <div>
-        <h1>
-          hello
-          </h1>
-      </div>
-    
+    <nav className="nav">
+        <ul>
+            <a href="#about">about</a>
+            <a href="#projects">projects</a>
+            <a href="#contact">contact</a>
+        </ul>
+    </nav>
     </>
-  )
+  );
 }
-
