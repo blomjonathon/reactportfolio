@@ -34,7 +34,7 @@ a:hover{
 
 .active{
     padding: 8px;
-    border-bottom: black solid 3px;
+    border-bottom: white solid 3px;
 }
 
 .firstHeader{
