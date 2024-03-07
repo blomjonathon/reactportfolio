@@ -31,6 +31,12 @@ nav a {
 a:hover{
     opacity: .5;
 }
+
+.active{
+    padding: 8px;
+    border-bottom: black solid 3px;
+}
+
 .firstHeader{
     display: none;
     display: flex;
