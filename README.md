@@ -1,8 +1,10 @@
-# React + Vite
+# Jonathon Blom Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This is a portfolio website, built with React. It is also deployed on Netlify. This portfolio showcases my ability to create a polished website, with different pages and projects for potential employers to view. There is a resume tab that allows a user to download my resume, a contact tab, and a portfolio tab with links to my deployed projects. It also has a header and a footer that persists throughout the site. I've included my contact information in the footer provided.
 
-Currently, two official plugins are available:
+Link to deployed app: 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Screenshot: 
+
+![Screenshot 2024-03-07 at 3 52 51 PM](https://github.com/blomjonathon/reactportfolio/assets/126799836/6d4b1c4d-2f3c-46cd-bf51-3d211c9bc08d)
