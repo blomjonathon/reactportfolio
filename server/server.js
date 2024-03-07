@@ -7,8 +7,6 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.use(routes);
-
 // NOTE: some build tools create a folder named "build" while others, like Vite, create one called "dist"
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, "..", 'client/dist')));
