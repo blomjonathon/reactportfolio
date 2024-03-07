@@ -38,7 +38,7 @@ a:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
-    height:800px;
+    height:400px;
     width: 100%;
     color:var(--textWhite);
     animation-name: changeColor;
@@ -138,10 +138,12 @@ footer{
     justify-content: center;
     align-items: center;
     background-color: var(--blue);
-    padding: 50px
+    padding: 50px;
+    border-top: black solid 1px
 }
 .contact h5{
     padding-top: 10px;
+    margin: 0px;
 }
 h5 a{
     font-size: 16px;
