@@ -10,21 +10,22 @@ export default function App() {
   return (
     <BrowserRouter>
       <nav>
-        <ul>
-          <li>
-            <NavLink to="/about">About Me</NavLink>
-          </li>
-          <li>
-            <NavLink to="/portfolio">Portfolio</NavLink>
-          </li>
-          <li>
-            <NavLink to="/contact">Contact</NavLink>
-          </li>
-          <li>
-            <NavLink to="/resume">Resume</NavLink>
-          </li>
-        </ul>
-      </nav>
+  <ul>
+    <li>
+      <NavLink to="/about" activeStyle={{ color: "red", fontWeight: "bold" }}>About Me</NavLink>
+    </li>
+    <li>
+      <NavLink to="/portfolio" activeStyle={{ color: "red", fontWeight: "bold" }}>Portfolio</NavLink>
+    </li>
+    <li>
+      <NavLink to="/contact" activeStyle={{ color: "red", fontWeight: "bold" }}>Contact</NavLink>
+    </li>
+    <li>
+      <NavLink to="/resume" activeStyle={{ color: "red", fontWeight: "bold" }}>Resume</NavLink>
+    </li>
+  </ul>
+</nav>
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<Home />} />
