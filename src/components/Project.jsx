@@ -4,7 +4,7 @@ import calcpic from "../assets/jscalc.png"
 import calendarjspic from "../assets/calendarimg.png"
 import jsquizpic from "../assets/jsquizimg.png"
 import passwordgen from "../assets/passwordgenimg.png"
-import seopic from "../assets/seoimg.png"
+// import seopic from "../assets/seoimg.png"
 import weatherpic from '../assets/weatherapp.png'
 
 export default function Project() {
@@ -47,7 +47,7 @@ export default function Project() {
             <section>
                 <h3>SEO Website</h3>
                 <a href="https://blomjonathon.github.io/seomarketing/" target="_blank">
-                    <img src={seopic} alt="SEO Site Image" />
+                    <img alt="SEO Site Image" />
                 </a>
             </section>
         </section>
